@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>For My Love ❤️</h1>
+        <div class="slider">
+            <div><img src="/images/1.jpg" alt="Love 1"></div>
+            <div><img src="/images/2.jpg" alt="Love 2"></div>
+            <div><img src="/images/3.jpg" alt="Love 3"></div>
+            <div><img src="/images/4.jpg" alt="Love 4"></div>
+            <div><img src="/images/5.jpg" alt="Love 5"></div>
+        </div>
+        <div class="quotes">
+            <p>❝ You are my today and all of my tomorrows. ❞</p>
+            <p>❝ In your smile, I see something more beautiful than the stars. ❞</p>
+            <p>❝ Every love story is beautiful, but ours is my favorite. ❞</p>
+            <p>❝ You are my paradise, and I would happily get lost in you. ❞</p>
+            <p>❝ I have found the one whom my soul loves. ❞</p>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                // prevArrow: "<button type='button' class='slick-prev'>&#10094;</button>",
+                // nextArrow: "<button type='button' class='slick-next'>&#10095;</button>"
+            });
+        });
+    </script>
+</body>
+</html>
